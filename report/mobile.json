@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 34212816800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserlaunch()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "iphonepurchase",
+        "description": "",
+        "id": "flipkart.iphonepurchase;iphonepurchase;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 777631500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserclose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8292217800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login to flipkart\"mani@gmail.com\",\"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mani@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 39
+                }
+              ],
+              "location": "MobilePurchase.user_login_to_flipkart(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1610683500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search iphone mobile\"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone\"",
+                  "offset": 25
+                }
+              ],
+              "location": "MobilePurchase.user_search_iphone_mobile(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3355815900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select the iphone",
+            "match": {
+              "location": "MobilePurchase.user_select_the_iphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7491865400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click addtocart",
+            "match": {
+              "location": "MobilePurchase.user_click_addtocart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14312115600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click placeorder",
+            "match": {
+              "location": "MobilePurchase.user_click_placeorder()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart.iphonepurchase",
+    "description": "",
+    "id": "flipkart.iphonepurchase",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/MobilePurchase.feature",
+    "tags": []
+  }
+]
